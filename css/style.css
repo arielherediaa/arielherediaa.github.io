@@ -12,14 +12,14 @@ nav {
   background-color: #1c1c1d;
   padding: 5px;
   display: flex;
-  justify-content:flex-end; /* pushes first child left, second child right */
+  justify-content:flex-end;
   align-items: center;
   margin: 0;
 }
 
 nav h1 {
   margin: 0;
-  font-size: 24px; /* adjust as you like */
+  font-size: 24px; 
   color: #ffffff;
 }
 
