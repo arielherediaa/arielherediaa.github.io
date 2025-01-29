@@ -8,17 +8,19 @@ body {
   font-family: 'Afacad Flux', sans-serif;
 }
 
-/* Nav Styles */
 nav {
-  background-color: #1c1c1d; 
-  padding: 16px;
+  background-color: #1c1c1d;
+  padding: 5px;
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-end; /* pushes first child left, second child right */
   align-items: center;
+  margin: 0;
 }
 
-nav p, nav a {
+nav h1 {
   margin: 0;
+  font-size: 24px; /* adjust as you like */
+  color: #ffffff;
 }
 
 nav a {
@@ -31,7 +33,6 @@ nav a:hover {
   color: #cccccc;
   text-decoration: underline;
 }
-
 /* Footer Styles */
 footer {
   background-color: #1c1c1d; 
